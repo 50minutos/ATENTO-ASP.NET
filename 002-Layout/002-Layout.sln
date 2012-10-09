@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-MasterPage", "001-MasterPage\001-MasterPage.csproj", "{FED6BCFF-4E6B-422B-A8DC-A36D7BC95112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-Tema", "002-Tema\002-Tema.csproj", "{F03134AF-BC6C-4F43-A681-B5DC161119F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FED6BCFF-4E6B-422B-A8DC-A36D7BC95112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED6BCFF-4E6B-422B-A8DC-A36D7BC95112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED6BCFF-4E6B-422B-A8DC-A36D7BC95112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED6BCFF-4E6B-422B-A8DC-A36D7BC95112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03134AF-BC6C-4F43-A681-B5DC161119F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03134AF-BC6C-4F43-A681-B5DC161119F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03134AF-BC6C-4F43-A681-B5DC161119F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03134AF-BC6C-4F43-A681-B5DC161119F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

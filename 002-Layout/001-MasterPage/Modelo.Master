@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Modelo.master.cs" Inherits="_001_MasterPage.Modelo" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Estilo.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+        <ul>
+            <li><a href="Servicos.aspx">Serviços</a></li>
+            <li><a href="Produtos.aspx">Produtos</a></li>
+            <li><a href="Clientes.aspx">Clientes</a></li>
+            <li><a href="Home.aspx">Home</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        by Agnaldo &middot; agnaldo@50minutos.com.br &copy; 2012</div>
+    </form>
+</body>
+</html>

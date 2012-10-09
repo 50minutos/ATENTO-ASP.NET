@@ -1,0 +1,16 @@
+﻿body
+{
+    background-color: #ccc;
+    color: #666;
+    font-family: Verdana, Arial, Trebuchet MS, MS Gothic Sans-Serif;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
