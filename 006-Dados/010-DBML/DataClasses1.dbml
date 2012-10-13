@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Db" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Users\Admin\Desktop\AtentoASPNET\006-Dados\001-ADO.NET\App_Data\Db.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="_010_DBML.Properties.Settings" SettingsPropertyName="DbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PESSOA" Member="Pessoas">
+    <Type Name="Pessoa">
+      <Column Name="COD_PESSOA" Member="Codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME_PESSOA" Member="Nome" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SEXO_PESSOA" Member="Sexo" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

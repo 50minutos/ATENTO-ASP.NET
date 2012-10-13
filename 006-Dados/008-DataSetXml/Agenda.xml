@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AGENDA>
+    <PESSOA>
+        <NOME>ADÃO</NOME>
+        <EMAIL>ADAO@PARAISO.CEU</EMAIL>
+    </PESSOA>
+    <PESSOA>
+        <NOME>EVA</NOME>
+        <EMAIL>EVA@PARAISO.CEU</EMAIL>
+    </PESSOA>
+    <PESSOA>
+        <NOME>CAIM</NOME>
+        <EMAIL>CAIM@PARAISO.CEU</EMAIL>
+    </PESSOA>
+    <PESSOA>
+        <NOME>ABEL</NOME>
+        <EMAIL>ABEL@PARAISO.CEU</EMAIL>
+    </PESSOA>
+</AGENDA>
