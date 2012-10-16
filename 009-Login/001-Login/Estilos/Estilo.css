@@ -1,0 +1,89 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body /*element*/
+{
+    background-color: #ccc;
+    color: #333;
+    font-size: 90%;
+    font-family: Trebuchet MS,Arial, Sans-Serif;
+}
+
+#header, #content, #footer
+{
+    width: 900px;
+    margin: 0px auto;
+}
+
+#header /*id*/
+{
+    background-image: url(../Imagens/header.png);
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+#header ul
+{
+    list-style: none;
+}
+
+#header ul li
+{
+    float: right;
+    margin-top: 122px;
+    margin-left: 5px;
+}
+
+#header ul li a
+{
+    text-decoration: none;
+    color: #666;
+    background-color: #ccc;
+    padding: 10px 30px;
+    border-top: 5px solid #000;
+}
+
+#header ul li a:hover
+{
+    color: #ccc;
+    background-color: #666;
+    border-top: 5px solid #fff;
+}
+
+#content
+{
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #666;
+}
+
+#content h1, #content p
+{
+    margin: 0px 10px 20px 10px;
+}
+
+#content h1
+{
+    text-align: center;
+}
+
+#content p
+{
+    text-align: justify;
+}
+
+#footer
+{
+    border-top: 2px dotted #333;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#ContentPlaceHolder1_Login1, #ContentPlaceHolder1_PasswordRecovery1, #ContentPlaceHolder1_ChangePassword1
+{
+    margin:10px auto;    
+}

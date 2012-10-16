@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_001_Login.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Estilos/Estilo.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+        <ul>
+            <li>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </li>
+            <asp:LoginView ID="LoginView1" runat="server">
+                <LoggedInTemplate>
+                    <li><a href="/Restrito/Alterar.aspx">Alterar senha</a></li>
+                </LoggedInTemplate>
+            </asp:LoginView>
+            <li><a href="/Diretoria/Financeiro.aspx">Financeiro</a></li>
+            <li><a href="/Restrito/Produto.aspx">Produtos</a></li>
+            <li><a href="/Home.aspx">Home</a></li>
+<%--            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Restrito/Produto.aspx">Produtos</asp:HyperLink>--%>
+        </ul>
+    </div>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        by Agnaldo &middot; agnaldo@50minutos.com.br &copy; 2012</div>
+    </form>
+</body>
+</html>
